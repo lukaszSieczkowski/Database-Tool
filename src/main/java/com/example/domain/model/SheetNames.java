@@ -1,16 +1,16 @@
 package com.example.domain.model;
 
 public enum SheetNames {
-	JAVA_BASIC_QUESTIONS_PL("java_basic_questions_pl"), JAVA_BASIC_QUESTIONS_EN("java_basic_questions_en");
+    JAVA_BASIC_QUESTIONS_PL("java_basic_questions_pl"), JAVA_BASIC_QUESTIONS_EN("java_basic_questions_en");
 
-	private String value;
+    private final String value;
 
-	private SheetNames(String value) {
-		this.value = value;
-	}
+    SheetNames(String value) {
+        this.value = value;
+    }
 
-	public String getValue() {
-		return value;
-	}
+    public String getValue() {
+        return value;
+    }
 
 }
